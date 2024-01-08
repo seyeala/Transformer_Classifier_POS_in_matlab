@@ -1,5 +1,5 @@
 
-filePath = '/Users/hamid/privacy/admission CS/Collumbia University JAN 2ND/w4995/HW2/mistretm/wv.csv'; % Change to your actual file path
+filePath = 'wv.csv'; % Change to your actual file path
 h1 = readvectorsfromcsvf(filePath);
 
 requestedWord = 'start';
