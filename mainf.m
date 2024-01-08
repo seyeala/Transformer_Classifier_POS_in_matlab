@@ -28,9 +28,9 @@ classifier = NN4f(maxTokens * d_model, 20, 10, 10, 4, maxTokens);
 %if the actual number of tokens is less than maxTokens then the toneks and labels will self repeat
 %until maxTokens is avaiable.
 
- vectorized=process_text_data2f('/Users/hamid/Downloads/Dataset/train_data.csv',maxTokens, h1,d_model);
- vectorized2=process_text_data2f('/Users/hamid/Downloads/Dataset/train_data.csv',maxTokens, h1,d_model);
- vectorized3=process_text_data2f('/Users/hamid/Downloads/Dataset/train_data.csv',maxTokens, h1,d_model);
+ vectorized=process_text_data2f('change it to the path for train_data.csv',maxTokens, h1,d_model);
+ vectorized2=process_text_data2f('change it to the path for  train_data.csv',maxTokens, h1,d_model);
+ vectorized3=process_text_data2f('change it to the path for  train_data.csv',maxTokens, h1,d_model);
 
 %comment out the next three lines otherwise only a subset of the dataset will be used for a quick run
  vectorized=getSubsetOfDatasetf(vectorized,100)
